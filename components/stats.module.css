@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+.statsContainer {
+    height: auto;
+}
+
+.statsRow {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2%;
+    overflow: hidden;
+}
+
+.statsRow1 {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    overflow: hidden;
+}
+.countryBoxDrk h3{
+    color: #eeee;
+}
+
+.statsBox2 {
+    width: 40%;
+    height: 120px;
+    background-color: #273c75;
+    border-radius: 20px;
+    text-align: center;
+    color: #dfdfdf;
+    padding: 15px;
+    margin: 0 2%;
+    box-shadow: 0px 0px 8px 2px #888;
+}
+
+.statsBox {
+    background-color: aliceblue;
+    width: 30%;
+    height: 120px;
+    margin-bottom: 3%;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0px 0px 8px 2px #888;
+    transition: ease-in-out 1s;
+}
+
+.statsBox1 {
+    width: 45%;
+    background-color: red;
+    padding: 15px;
+    box-shadow: 0px 0px 8px 2px #888;
+    margin-bottom: 3%;
+    border-radius: 15px;
+    text-align: center;
+    transition: ease-in-out 1s;
+}
+
+.statsBox1:first-child {
+    background-color: #273c75;
+    color: #fff;
+}
+
+.statsBox1:nth-child(2) {
+    background-color: #192a56;
+    color: #fff;
+}
+
+.statsBox:first-child {
+    background-color: #f39c12;
+}
+
+.statsBox:nth-child(2) {
+    background-color: #e74c3c;
+}
+
+.statsBox:nth-child(3) {
+    background-color: #27ae60;
+}
+.statsBoxDrk{
+    transition: ease-in-out 1s;
+    color: #eeee;
+    box-shadow: none;
+}
+.statsBoxDrk:first-child{
+    background-color:#424242 ;
+}
+.statsBoxDrk:nth-child(2){
+    background-color: #616161;
+}
+.statsBoxDrk:nth-child(3){
+    background-color: #757575;
+}
+.statsBoxDrk1{
+    color: #eeee;
+    box-shadow: none;
+    background-color: #121212 !important;
+}
+
+.statsBox h4, .statsBox1 h4, .statsBox2 h4 {
+    font-family: "Iran-sans-bold";
+    font-size: 24px;
+}
+
+.statsBox h6, .statsBox1 h6, .statsBox2 h6 {
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-top: 5%;
+    letter-spacing: 1px;
+}
+
+.countryName {
+    margin-top: 1%;
+    padding: 20px 90px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    font-family: "Peyda";
+}
+
+.countryBox:first-child {
+    margin-top: 2%;
+}
+
+.countryName span {
+    font-family: "Lato";
+    direction: ltr;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.countryImg {
+    width: 150px;
+    height: 100px;
+    box-shadow: 0px 0px 10px 2px #dfdfdf;
+    border-radius: 10px;
+}
+.countryImgDrk{
+    box-shadow: none;
+    background: #d5d3d3 !important;
+   
+}
+.countryImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    mix-blend-mode: multiply;
+}
+
+.iran {
+    font-family: "Peyda" !important;
+}
+
+.linkBtn {
+    text-align: center;
+    margin-bottom: 3%;
+    font-family: "Peyda";
+}
+.linkBtnDrk button{
+    background: #757575;
+    border: none;
+    color: #eeee;
+    transition: ease-in-out 1s;
+}
+
+.date {
+    font-family: "IranYekan-Light";
+    text-align: center;
+    margin-top: -1%;
+    margin-bottom: 2%;
+}
+.dateDrk{
+    color: #eeee;
+}
+
+.backBtn {
+    background-color: #273c75;
+    color: #fff;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+@media screen and (min-width:300px) and (max-width:760px) {
+    .statsRow {
+        flex-flow: column;
+    }
+    .statsRow1 {
+        flex-flow: column;
+        align-items: center;
+    }
+    .statsBox, .statsBox1, .statsBox2 {
+        width: 90%;
+        margin-bottom: 10%;
+    }
+   
+    .countryName {
+        padding: 20px;
+        flex-flow: column;
+    }
+    .countryImg {
+        width: 60%;
+        height: 100px;
+        margin: 3% auto;
+    }
+}

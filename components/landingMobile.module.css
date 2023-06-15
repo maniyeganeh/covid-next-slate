@@ -1,0 +1,84 @@
+.mobileContainer {
+    display: none;
+}
+
+@media screen and (min-width:300px) and (max-width:760px) {
+    .mobileContainer {
+        height: auto;
+        display: block;
+       
+        margin-top: 30% !important;
+    }
+    .mobileContainerDrk{
+        margin-top: 8% !important;
+    }
+    .mobileRow {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        margin-bottom: 6%;
+    }
+    .mobileBox {
+        padding:10px;
+        box-shadow: 0px 0px 8px 2px #888;
+        width: 160px;
+        height: 160px;
+        border-radius: 10px;
+        text-align: center;
+        font-family: "Peyda";
+    }
+    .mobileBox h5{
+        font-size: 18px;
+    }
+    .mobileBoxDrk{
+        box-shadow: 0px 0px 8px 2px #12121212;
+        color: #eee;
+    }
+    .mobileBoxDrk:first-child{
+        background-color: #424242 !important;
+       
+    }
+    .mobileBoxDrk:nth-child(2){
+        background-color: #616161 !important;
+    }
+    .mobileBox:first-child{
+        background-color:#7f8fa6 ;
+    }
+    .mobileBox:nth-child(2){
+        background-color: #273c75;
+        color: #fff;
+    }
+    .mobileRow1 {
+        display: flex;
+        flex-flow: row;
+        margin-bottom: 8%;
+    }
+    .mobileBox1 {
+        padding: 10px;
+        width: 90%;
+        background-color: #487eb0;
+        box-shadow: 0px 0px 8px 2px #888;
+        margin: 2% auto;
+        height: 125px;
+        border-radius: 10px;
+        text-align: center;
+        color: #fff;
+        font-family: "Peyda";
+    }
+    .mobileBoxDrk1{
+        background-color: #121212;
+        box-shadow: 0px 0px 8px 2px #121212;
+    }
+    .icon {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+    }
+    .iconDrk{
+        mix-blend-mode:overlay;
+    }
+    .iconVaccineDrk{mix-blend-mode: screen;}
+    .iconVaccine{
+        margin-top: -2%;
+    }
+}

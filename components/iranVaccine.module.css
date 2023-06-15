@@ -1,0 +1,70 @@
+.iranVacContainer{
+    height: auto;
+    padding: 20px 30px;
+}
+.iranDrk{
+    color: #eee;
+}
+.iranVacContainer h3{
+    font-family: "Peyda";
+    margin-bottom: 2%;
+}
+.iranVacContainer h5{
+    font-family: "Iran-sans-reg";
+}
+.iranVacRow{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+.iranVacBoxDrk{
+    box-shadow: none !important;
+}
+.icon{
+
+    margin-right: 10px;
+    padding: 2px;
+ 
+    cursor: pointer;
+ 
+}
+.icon svg{
+    width: 25px;
+    height: 22px;
+    color: #7f8fa6;
+    margin: 0 auto;
+}
+.progressContainer{
+    margin-top: 8%;
+}
+.progress{
+    width: 300px;
+     height: 300px;
+     margin: 0 auto;
+}
+.progress h3{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 8%;
+}
+
+@media screen and (min-width:300px) and (max-width:760px){
+    .iranVacContainer{
+        height: auto;
+        padding: 20px 10px;
+    }
+.iranVacRow{
+    flex-flow: column;
+    align-items: center;
+}
+.progress{
+    width: 100%;
+    height: auto;
+    margin: 8% 0;
+}
+.progress h3{
+    font-size: 12px;
+    margin-top: 10%;
+    
+}
+}

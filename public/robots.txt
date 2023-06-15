@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://dailystats.ir
+
+# Sitemaps
+Sitemap: https://dailystats.ir/sitemap.xml

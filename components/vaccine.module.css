@@ -1,0 +1,169 @@
+.vaccineContainer{
+    height: auto;
+    padding-bottom: 20px;
+    padding: 10px 20px;
+}
+.vaccineContainerDrk{
+    color: #eeee;
+}
+.vaccineContainer h3{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    font-family: "Peyda";
+}
+.vaccineRow{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.vaccineBox h5{
+    font-family: "IranYekan-bold";
+}
+.vaccineBox h6{
+    font-family: "IranYekan-Light";
+    font-size: 24px;
+    color: #fff;
+    text-shadow: 1px 2px #000;
+}
+.vaccineBoxDrk{
+    color: #eeee;
+}
+.vaccineTotal , .vaccineOne ,.vaccineTwo , .vaccineThree ,
+.vaccineLimit,.vaccineAuth
+{
+    width: 180px;
+    height: 80px;
+    border-radius: 15px;
+    padding: 25px;
+    margin-top: 7%;
+    box-shadow: 0px 0px 10px 2px rgba(136, 136, 136, 0.804);
+}
+.vaccineTotal{
+    background-color: #353b48;
+}
+.vaccineOne{
+    background-color: #40739e;
+}
+.vaccineTwo{
+    background-color: #1289A7;
+}
+.vaccineAuth{
+    background-color: #006266;
+}
+.vaccineLimit{
+    background-color: #778ca3;
+}
+.vaccineThree{
+    background-color: #192a56;
+}
+.vaccineDrkBg{
+    box-shadow: none;
+   
+}
+.vaccineDrkBg:first-child{
+    background-color: #121212;
+}
+.vaccineDrkBg:nth-child(2){
+    background-color: #717171 ;
+}
+.date{
+    text-align: center;
+    margin-top: 5%;
+    font-family: "Peyda";
+}
+.date span{
+    margin-left:1%;
+}
+.iranBtn{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 3%;
+    font-family: "Peyda";
+    border-bottom: 1px solid #dcdde179;
+    padding-bottom: 20px;
+}
+.vaccineBtnWrapper{
+    margin-top:3%;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #dcdde179;
+
+}
+.vaccineBtn button{
+    font-family: "Peyda";
+    border: none;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 10px;
+}
+.vaccineBtn:first-child button{
+    background-color: #487eb0;
+   
+}
+.vaccineBtn:nth-child(2) button{
+    background-color: #40739e;
+}
+.vaccineBtn:nth-child(3) button{
+background-color: #273c75;
+}
+.vaccineBtn:nth-child(4) button{
+background-color: #192a56;
+}
+.vaccineLvl{
+    border-bottom: 1px solid #dcdde179;
+    margin-bottom: 4%;
+    padding-bottom: 10px;
+}
+.vaccineProg{
+    margin-bottom: 40px;
+}
+.vaccineLvl p{
+    font-size: 18px;
+    font-family: "IranYekan-Light";
+    line-height: 170%;
+}
+.vaccineLvl span{
+    font-family: "Peyda";
+    margin-left: 1%;
+    font-size: 21px;
+}
+.vaccineLvl p::first-letter{
+    color: #c23616 !important;
+}
+.vaccineLvl:last-child{
+    border: none;
+}
+@media screen and (min-width:300px) and (max-width:760px){
+.vaccineRow{
+    flex-flow: row wrap;
+    align-items: center;
+    margin-top: 5%;
+}
+.vaccineBox{
+    margin-bottom: 4%;
+  
+  
+}
+.vaccineTotal , .vaccineOne ,.vaccineTwo , .vaccineThree ,
+.vaccineLimit,.vaccineAuth{
+    margin-top: 10%;
+    width: 140px;
+}
+.vaccineBtn{
+    margin-bottom: 4%;
+    font-size: 15px;
+}
+.vaccineProg h3{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.iranBtn{
+    flex-flow: column;
+    align-items: center;
+}
+.iranBtn button{
+    margin-bottom: 3%;
+}
+}

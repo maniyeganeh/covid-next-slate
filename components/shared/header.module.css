@@ -1,0 +1,38 @@
+.headerContainer {
+    padding: 1px 20px;
+    background-color: #f8f9fa ;
+    box-shadow: 0px 0px 10px 1px #ccc;
+    transition: ease-in-out 1s;
+}
+.headerContainerDark{
+    background-color: #121212 ;
+    padding: 1px 20px;
+    
+    transition: ease-in-out 1s;
+}
+.headerRow {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width:300px) and (max-width:760px) {
+    .headerContainer {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        background-color: #273c75 !important;
+        z-index: 100;
+    }
+}

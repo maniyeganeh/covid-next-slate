@@ -1,0 +1,23 @@
+{
+  "short_name": "Dailystats App",
+  "name": "Daily Stats PWA APP",
+  "icons": [
+    {
+      "src": "/img/logo256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "/img/logo.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#16213e",
+  "background_color": "#16213e",
+  "orientation": "portrait-primary",
+  "scope": "."
+}

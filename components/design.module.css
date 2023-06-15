@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+.designContainer{
+    padding: 5px 0px;
+    direction: ltr !important;
+    
+}
+.designRow{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.designBox{
+    font-family: "Lato";
+}
+.designBox h6{
+    font-size: 15px;
+    color: #000 !important;
+}
+.designBox span{
+    color: #0652DD;
+    margin-right: 5px;
+}
+.darkMode{
+    width: 100% !important;
+    background-color: #121212 !important;
+}

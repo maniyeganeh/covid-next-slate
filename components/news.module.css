@@ -1,0 +1,350 @@
+.newsContainer{
+    margin-top: 2%;
+    height: auto;
+    padding: 10px;
+    position: relative;
+}
+.searchBtn{
+  margin-top: -2%;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+  
+}
+.searchBtn button{
+    background: none !important;
+    border: none;
+   border-radius: 10px;
+}
+.searchBar input{
+    border-radius: 10px !important;
+    padding: 0px 20px;
+    font-family: "IranYekan-Light";
+    position: relative;
+    height: 35px;
+   
+
+}
+.searchBar input:focus{
+    outline: none !important;
+}
+.searchBarBtn{
+    position: absolute;
+    top: 0%;
+    right: 97%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px !important;
+    background: none !important;
+    border: none !important;
+    z-index: 10;
+}
+.newsRow{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.newsBox{
+    flex: 1 2 30%;
+    height:auto;
+    margin: 2%;
+    background: red;
+    border-radius: 20px;
+    padding: 20px 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 0px 5px 5px #dfdfdf;
+    background-color: #666666;
+    background-blend-mode: multiply;
+    color: #ffff;
+    transition: linear 0.3s;
+    cursor: pointer;
+    
+}
+.newsBoxDrk{
+    box-shadow: 0px 0px 5px 5px #121212;
+    color: #eeee;
+}
+.newsBox:hover{
+    color: #fff !important;
+    background-color: rgb(78, 78, 78);
+    text-decoration: none;
+    transform: scale(1.05);
+    background-size: 800px;
+    object-fit: contain;
+    background-size: cover;
+    background-position:center bottom;
+}
+.newsBox h2{
+    margin-bottom: 5%;
+    font-family: "Iran-sans-bold";
+    text-shadow: 2px  2px #000;
+    line-height: 140%;
+    font-size: 25px;
+    text-align: justify;
+
+}
+.newsBox h6{
+    font-family: "IRANYekan-Light";
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 21px;
+    max-height: auto;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.paginate{
+    margin-top: 10%;
+    padding: 10px 25px;
+}
+.singleNewsContainer{   
+    padding: 30px 30px;
+    height: auto;
+    
+  
+}
+.singleNewsRow{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.singleNewsBox:first-child{
+    width: 70%;
+
+}
+.singleNewsBoxDrk{
+    color: #eeee;
+}
+.singleNewsBox:nth-child(2){
+    width: 22%;
+    background-color: #dfdfdfa1;
+    height: auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.singleNewsBoxDrk:nth-child(2){
+    background-color: #121212;
+}
+.newsImgContainer{
+    width: 100%;
+    margin: 2% auto;
+  
+}
+.newsImgContainer img{
+    width: 900px;
+    height: 400px;
+    border-radius: 10px 60px 10px 10px;
+    margin: 0 auto;
+    border: 10px solid #dfdfdfa1 !important;
+
+   
+}
+.newsImgContainerDark img{
+    border: 10px solid #121212 !important;
+}
+.singleNewsBox h3{
+    font-family: "Peyda";
+    text-align: justify;
+  margin-bottom: 1%;
+  padding: 0 5px;
+}
+.singleNewsBox small{
+    font-family: "IranYekan-Light";
+    font-size: 15px;
+    text-align: justify;
+    
+}
+.singleNewsBox h4{
+    font-family: "Peyda";
+    margin-top: -4%;
+    background-color: #dfdfdfa1;
+    padding: 25px 20px;
+    border-radius: 0px 0px 10px 10px;
+    line-height: 150%;
+    font-size: 20px;
+    margin-bottom: 1%;
+    text-align: justify;
+}
+.singleNewsBoxDrk h4{
+    background-color: #121212;
+}
+.singleNewsBox p {
+    font-family: "Iran-sans-reg";
+    font-size: 18px;
+    line-height: 180%;
+    text-align: justify;
+    padding: 0 5px;
+}
+.singleNewsBox h6{
+    border-bottom: 1px solid #888;
+    padding: 10px;
+    font-family: "Iran-sans-bold";
+    font-size: 20px;
+}
+.singleNewsBoxDrk h6{
+    color: #eeee !important;
+    font-family: "Iran-sans-bold";
+}
+.mintues small{
+    font-family: "Iran-sans-bold"; 
+    color: rgb(150, 150, 150); 
+}
+.link{
+    font-family: "Peyda";
+    font-size: 18px;
+    color: #3742fa;
+}
+.newsLink{
+    font-family: "IranYekan-Light";
+   margin: 3% 0;
+}
+.buttonContainer{
+    margin-top: 10%;
+    font-family: "Peyda";
+    background-color: #40739e;
+    padding: 5px 10px;
+    width: 50%;
+    margin: 10% auto;
+    border-radius: 10px;
+    color: #fff;
+  
+}
+.icon{
+
+    margin-right: 0%;
+    padding: 2px;
+ 
+    cursor: pointer;
+ 
+}
+.icon svg{
+    width: 25px;
+    height: 22px;
+    color: #7f8fa6;
+    margin: 0 auto;
+}
+.loadMore{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-family: "Iran-sans-reg";
+}
+.loadMore button{
+    border: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: #7f8fa6;
+    color: #fff;
+    transition: all 0.2s;
+
+}
+.loadMore button:hover{
+    background-color: #3742fa;
+    transform: scale(1.05);
+}
+.loadMoreDark button{
+    background-color:#353b48;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    font-size: 18px;
+    transition: all 0.2s;
+}
+.loadMore span{
+    margin-right: 10px;
+}
+.loadMoreDark button:hover{
+    background-color: #666666;
+    transform: scale(1.05);
+}
+.result h6{
+    font-family: "Iran-sans-reg";
+}
+@media screen and (min-width:1500px) {
+.singleNewsBox h4{
+    margin: 2% 0;
+}
+
+}
+@media screen and (min-width:300px) and (max-width:760px){
+    .newsRow{
+        flex-flow: column;
+    }
+    .newsBox{
+        padding: 15px;
+    }
+    .newsBox h2{
+        font-size: 23px;
+        width: 100%;
+    }
+    .newsBox h6{
+        line-height: 140%;
+        font-size: 16px;
+    }
+    .singleNewsContainer{
+        padding: 10px 10px;
+        margin-top: 3%;
+        overflow-x: hidden;
+    }
+    .newsContainer{
+        height: auto;
+    }
+    .singleNewsRow{
+        flex-flow: column;
+        align-content: center;
+    }
+    .singleNewsBox{
+        width: 100% !important;
+    }
+    .newsImgContainer{
+        width: 100%;
+    }
+
+    .singleNewsBox h3{
+        width: 100%;
+        line-height: 150%;
+    }
+    .singleNewsBox:first-child{
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba(136, 136, 136, 0.742);
+        margin-bottom: 5%;
+    }
+    .singleNewsBox h4{
+        padding: 10px;
+        font-size: 18px;
+        margin-top: -5%;
+        line-height: 170%;
+    }
+    .newsImgContainer img{
+        height: 300px;
+    }
+    .singleNewsBox p{
+        line-height: 200%;
+    }
+    .loadMore{
+        margin: 2% 0;
+    }
+    .loadMore button{
+        font-size: 12px;
+    }
+    .searchBtn{
+       margin: 2% 0;
+    }
+    .searchBarBtn{
+        right: 89%;
+        z-index: 100;
+    }
+    .newsLink{
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 100%;
+        display: block;
+        overflow: hidden;
+        margin:15px 0
+    }
+}

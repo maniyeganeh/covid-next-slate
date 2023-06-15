@@ -1,0 +1,30 @@
+.phasecontainer{
+    height: auto;
+    padding: 20px;
+}
+.phaseRow{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.phaseBoxDrk{
+    color: #eee;
+}
+.phaseBox h3{
+    font-family: "IranYekan-Light";
+}
+.phaseBox button{
+    font-family: "Peyda";
+}
+@media screen and (min-width:300px) and (max-width:760px){
+    .phasecontainer{
+        padding: 10px;
+    }
+.phaseRow{
+    flex-flow: column;
+}
+.phaseBox{
+    margin-bottom: 3%;
+}
+
+}

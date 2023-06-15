@@ -1,0 +1,124 @@
+.landingContainer {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.landingRow, .landingRow1 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.landingBox {
+    width: 50%;
+    background-color: #f5f6fa;
+    box-shadow: 0px 0px 8px 2px #888;
+    margin: 2%;
+    height: 280px;
+    border-radius: 20px;
+    padding: 12px 20px;
+    overflow: hidden;
+     transition: ease-in-out 1s;
+}
+.darkMode{
+    background-color: #212121 !important;
+    box-shadow: none !important;
+    color: #eeee !important;
+    transition: ease-in-out 1s;
+}
+.landingBox1 {
+    text-align: center;
+    width: 50%;
+    background-color: #f5f6fa;
+    box-shadow: 0px 0px 8px 2px #888;
+    margin: 2%;
+    height: 210px;
+    border-radius: 20px;
+    padding: 12px 20px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.landingBox1 h4 {
+    margin-top: 10%;
+    font-family: "Peyda";
+    font-size: 22px;
+}
+
+.landingBox:nth-child(2) {
+    background-color: whitesmoke;
+}
+
+.titleRow {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-bottom: 1%;
+    font-family: "Peyda";
+}
+
+.titleBox h6 {
+    margin-top: 2%;
+}
+
+.click {
+    font-family: "IranYekan-Bold";
+    font-size: 16px;
+}
+
+.newsLanding {
+    font-family: "Iran-sans-reg";
+    font-weight: lighter;
+}
+
+.newsLanding a {
+    display: block;
+    word-spacing: 1px;
+    margin-bottom: 3%;
+    transition: all 0.2s;
+    font-size: 16px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 490px;
+    display: block;
+    overflow: hidden
+}
+
+.newsLanding a:hover {
+    color: #273c75;
+    text-decoration: none !important;
+    transform: translate(-20px);
+}
+
+.boxImg {
+    width: 90px;
+    height: 90px;
+    margin: 2% auto;
+}
+.newsError{
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.newsErrorIcon{
+    margin: 15px 0px;
+}
+.newsError h3{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+@media screen and (min-width:300px) and (max-width:760px) {
+    .landingContainer {
+        display: none;
+    }
+}
+@media screen and (orientation: landscape){
+    .landingContainer{
+        height: auto;
+    }
+}

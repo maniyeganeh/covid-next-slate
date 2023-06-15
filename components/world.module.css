@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+.worldContainer{
+    height: 100vh;
+    margin-top: -3%;
+ 
+}
+
+.worldRow1 , .worldRow2 , .worldRow3{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-evenly;
+}
+.statsRow{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3%;
+  
+}
+.statsBox1 h4{
+    font-family: "IranYekan-Bold";
+    font-size: 16px;
+}
+.statsBox1 h6{
+    font-family: "Lato";
+}
+.statsBox1{
+    width: 40%;
+    background-color: red;
+    padding: 15px;
+    box-shadow: 0px 0px 8px 2px #888;
+    margin-bottom: 3%;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: none;
+}
+.statsBox1:first-child{
+    background-color: #273c75;
+    color: #fff;
+}
+.statsBox1:nth-child(2){
+    background-color: #192a56;
+    color: #fff;
+}
+.date{
+    text-align: center;
+    font-family: "IranYekan-Light";
+    margin-top: 3%;
+}
+.dark{
+    color: #eeee;
+}
+@media screen and (min-width:300px) and (max-width:760px){
+    .worldContainer{
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .worldRow1 , .worldRow2 , .worldRow3{
+        flex-flow: column;
+        align-items: center;
+    }
+    .statsRow{
+        flex-flow: column;
+        align-items: center;
+        margin-top: 7%;
+    }
+    .statsBox1{
+        width: 80%;
+    }
+}

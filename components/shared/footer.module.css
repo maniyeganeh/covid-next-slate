@@ -1,0 +1,43 @@
+.footerContainer {
+    height: 120px;
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+    font-family:"IranYekan-light" ;
+    transition: ease-in-out 1s;
+}
+.footerRow{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+   
+}
+.footerBox:first-child{
+    width: 30%;
+}
+.footerImg{
+    width: 100px;
+    height: 100px;
+    margin-top: -20%;
+}
+.darkMode{
+    height: 120px;
+    padding: 40px 20px;
+    background-color: #121212 !important;
+    color: #fff;
+    transition: ease-in-out 1s;
+    width: 100% !important;
+}
+@media screen and (min-width:300px) and (max-width:760px){
+    .footerRow{
+        flex-flow: row nowrap;
+      justify-content: space-between;
+    }
+    .footerBox h6{
+        font-size: 13px;
+        width: 100%;
+    }
+    .footerBox:first-child{
+        margin-top: -2%;
+        width: 50%;
+    }
+}

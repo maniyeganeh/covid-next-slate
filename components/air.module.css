@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+.airContainer{
+    height: 100vh;
+    background-color: #dcdde19c;
+    overflow: hidden;
+    
+}
+.airDrk{
+    background:linear-gradient(to right, #273c75, #40739e);
+}
+
+.airDrk .airbox{
+    background-color: #2f3640;
+    color: #ecf0f1;
+    box-shadow: 0px 0px 8px 2px #273c75;
+}
+.airbox{
+    height: 300px;
+    width: 50%;
+    margin: 8% auto;
+    background-color: #f5f6fa;
+    text-align: center;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0px 0px 8px 2px #888;
+}
+.airDrk .airHeader , .airDrk .airFooter{
+    background-color: #353b48;
+    box-shadow: 0px 0px 8px 2px #192a56;
+   
+}
+.airHeader{
+    background-color: #dfdfdf;
+    padding: 20px 0;
+    font-family: "Iran-sans-bold";
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0px 0px 8px 2px #888;
+}
+.airBody{
+    padding: 50px 0;
+}
+.airBody h5{
+    font-family: "Iran-sans-bold";
+    font-weight: bolder;
+    font-size: 40px;
+}
+.airBody p {
+    text-shadow: 1px 0px #000;
+    font-family: "Iran-sans-bold";
+}
+.airFooter{
+    background-color: #dfdfdf;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+    font-family: "Peyda";
+    box-shadow: 0px 0px 8px 2px #888;
+}
+.airQ{
+    font-family: "Iran-sans-reg";
+ padding: 10px 0;
+}
+.moderate{
+    background-color: #fbc531;
+}
+.unhlt{
+    background-color: #f39c12;
+}
+.dng{
+    background-color:#c23616 ;
+}
+.danger{
+    background-color: #5f27cd;
+}
+@media screen and (min-width:300px) and (max-width:760px){
+.airbox{
+    width: 90%;
+    margin-top: 10%;
+}
+
+}
+@media screen and (max-width:320px) {
+   .airFooter{
+       margin-top: -3%;
+   }
+}

@@ -1,0 +1,18 @@
+.userContainer{
+    padding: 10px 20px;
+}
+.userRow{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    
+}
+.userBox h1{
+    font-family: "Peyda";
+    margin-bottom: 5%;
+    font-size: 30px;
+}
+.userBox h4{
+    font-family: "IranYekan-Light";
+    margin:10% 0;
+}

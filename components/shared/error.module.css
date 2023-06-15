@@ -1,0 +1,36 @@
+.errorContainer{
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 10%;
+   
+}
+.errorCard{
+    width: 60%;
+    text-align: center;
+    padding: 50px;
+    background-color:#ae2608aa ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 2px #888;
+    font-family: "Peyda";
+}
+.errorHeader{
+    margin-bottom: 3%;
+    font-size: 27px;
+}
+.customdContainer{
+    padding: 10px;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Peyda";
+    width: 100%;
+}
+.customdContainer h1{
+    font-size: 28px;
+    margin-bottom: 8%;
+}

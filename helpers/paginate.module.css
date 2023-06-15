@@ -1,0 +1,24 @@
+.pagination{
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    direction: rtl;
+}
+.pagination li a{
+    border-radius: 2px;
+}
+.pageItem{
+    border: none;
+}
+ .active{
+    background: red !important;
+}
+
+@media screen  and (min-width:300px) and (max-width:760px){
+    .pagination{
+        flex-flow: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}

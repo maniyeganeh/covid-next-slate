@@ -1,0 +1,18 @@
+.layout{
+    transition: ease-in-out 1s;
+    position: relative;
+}
+.darkMode{
+    background-color: #000;
+    transition: ease-in-out 1s;
+}
+
+@media screen and (min-width:300px) and (max-width:760px) {
+.mobileMarg {
+    margin-top:22.5%;
+}
+.darkMobile{
+    margin-top: 0%;
+}
+
+}

@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+.table{
+    font-family: "Lato";
+    border-radius: 10px !important;
+    background-color: #f5f6fa;
+}
+
+.table th{
+    background:linear-gradient(#dcdde1 , #f5f6fa);
+    font-family: "Iran-sans-bold";
+text-align: center;
+border-bottom: none !important;
+
+}
+.table td{
+    font-family: "Lato";
+    text-align: center;
+    font-weight: bolder;
+}
+.table a{
+    color: #fff;
+    font-size: 20px;
+}
+.deaths{
+    background:#c23616 !important;
+    color: #fff;
+}
+.newsTd td{
+    font-family: "IranYekan-Light";
+   
+}
+.newsTd a{
+    color: #000;
+}
+@media screen and (min-width:300px) and (max-width:760px){
+.table{
+    width: 100%;
+}
+
+}

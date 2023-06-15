@@ -1,0 +1,23 @@
+.container{
+    position: relative;
+}
+.buttonContainer{
+    margin-bottom: 2%;
+    position: absolute;
+    top:90%;
+    left: 1%;
+}
+.buttonContainer button{
+    border: none;
+    background: none;
+    box-shadow: none;
+    font-size: 1.2em;
+
+}
+@media screen and (min-width:300px) and (max-width:760px){
+
+.buttonContainer{
+    top: 92%;
+    display: none;
+}
+}

@@ -1,0 +1,15 @@
+.chart{
+  direction: ltr;
+    margin: 5px auto;
+    font-family: "Peyda";
+
+}
+
+@media screen and (min-width:300px) and (max-width:760px){
+.chart{
+
+  width: 100% !important;
+  height: 300px !important;
+}
+
+}

@@ -1,0 +1,93 @@
+
+.worldContainer{
+    padding: 10px 20px;
+}
+.title{
+    margin: 2% 0;
+    font-family: "Peyda";
+}
+.titleDrk{
+    color: #eeee;
+}
+.title span{
+    font-family: "Lato";
+    margin-right: 1%;
+}
+.searchInput{
+    width: 70%;
+}
+.searchInputDrk input{
+    background: transparent !important;
+    color: #eeee;
+}
+.searchInputDrk input:focus{
+    color: #eeee;
+}
+.input::placeholder{
+    font-family: "Peyda";
+   
+}
+
+.input{
+border: 1px solid #dfdfdf;
+border-radius: 10px;
+box-shadow: 0px 0px 5px 1px #dfdfdf;
+outline: #dfdfdf;
+
+}
+.selectSec{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 0px 25px;
+    font-family: "Iran-sans-reg";
+}
+.selectSec select{
+    border: none;
+    border-bottom: 1px solid #888;
+    
+    padding: 10px 20px;
+    margin: 1% 0;
+    background-color: transparent;
+    color: #fff;
+    outline: none !important;
+}
+.selectSecDrk select{
+    color: #000;
+}
+.selectSec button{
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+.select{
+   width: 20%;
+    
+}
+
+@media screen and (min-width:300px) and (max-width:760px){
+.worldContainer{
+    padding: 10px;
+}
+.searchInput{
+    width: 90%;
+    margin: 5% 0;
+}
+.selectSec{
+    width: 95%;
+    padding: 0 10px;
+    margin: 2% 0;
+}
+.selectSec select{
+    width: 50%;
+}
+.selectSec button{
+    margin-top: 2%;
+}
+.select{
+    width: 55%;
+     
+ }
+
+}
