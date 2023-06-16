@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider next start",
     "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
-    "start": "NODE_OPTIONS=--openssl-legacy-provider next dev",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider next start",
     "test": "jest",
     "lint": "next lint",
     "lint-fix": "./node_modules/.bin/standard --fix",
